@@ -1,0 +1,182 @@
+/* CSS - Cascading Style Sheet */
+
+:root {
+  --Main:     0, 111, 146; /* { color: #006F92 } */
+  --Light1: 191, 229, 241; /* { color: #BFE5F1 } */
+  --Light2:  88, 203, 242; /* { color: #58CBF2 } */
+  --Dark1:    2,  62,  81; /* { color: #023E51 } */
+  --Dark2:    1,  33,  43; /* { color: #01212B } */
+  --Accent: 234, 120,   0; /* { color: #EA7800 } */
+}
+
+@font-face { font-family: 'nexaLight'; src: url('fonts/Nexa-Light.otf'); }
+@font-face { font-family: 'nexaBold'; src: url('fonts/Nexa-Bold.otf'); }
+@font-face { font-family: 'Sinkin200'; src: url('fonts/SinkinSans-200.otf'); }
+@font-face { font-family: 'Sinkin300'; src: url('fonts/SinkinSans-300.otf'); }
+@font-face { font-family: 'Sinkin400'; src: url('fonts/SinkinSans-400.otf'); }
+@font-face { font-family: 'Sinkin500'; src: url('fonts/SinkinSans-500.otf'); }
+@font-face { font-family: 'Sinkin600'; src: url('fonts/SinkinSans-600.otf'); }
+@font-face { font-family: 'Sinkin700'; src: url('fonts/SinkinSans-700.otf'); }
+@font-face { font-family: 'Sinkin800'; src: url('fonts/SinkinSans-800.otf'); }
+@font-face { font-family: 'Sinkin900'; src: url('fonts/SinkinSans-900.otf'); }
+
+/********** HEADER **********/
+body {
+    font-family: 'nexaLight', Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/********** TOP-NAVI **********/
+header {
+    position: fixed;
+    min-width: 100%;
+    height: 75px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    padding: 25px;
+    overflow: hidden;
+    background-color: lightblue;
+    z-index: 9999;
+}
+
+.Logo {
+    position: relative;
+    float: left;
+
+}
+
+.TopNavi {
+    text-align: center;
+    float: flex;
+    color: black;
+    margin: 10px;
+    padding-right: 25px;
+}
+
+.TopNavi ul {
+    font-size: 1.2em;
+    margin: 0px;
+    padding: 0px;
+}
+
+.TopNavi ul li {
+    display: inline-block;
+    list-style-type: none;
+    background-color: beige;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.TopNavi > ul > li > a {
+    color: darkblue;
+    display: block;
+    width: 150px;
+    line-height: 25px;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.TopNavi > ul > li > a:hover {
+    color: royalblue;
+    font-family: 'nexaBold', Arial, Helvetica, sans-serif;
+}
+
+.MainSection {
+    position: relative;
+    margin-top: 100px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h2 {
+    font-size: 25px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+p {
+    font-size: 13px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/********** HOME **********/
+.Home {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../media/Bulb-01.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+
+/********** ANGEBOT **********/
+.Angebot {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../media/Bulb-02.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+
+/********** ELEKTROBIOLOGIE **********/
+.ElektroBiologie {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../media/Bulb-03.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+
+/********** ABOUT **********/
+.About {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../media/Bulb-04.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+
+/********** PEOPLE **********/
+.People {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../media/Bulb-05.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+
+/********** CONTACT **********/
+.Contact {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../media/Bulb-06.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
